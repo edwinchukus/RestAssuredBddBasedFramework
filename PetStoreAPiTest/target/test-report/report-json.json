@@ -1,0 +1,81 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 327503900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksSteps.before()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Creating a pet",
+        "description": "",
+        "id": "this-is-create-feature;creating-a-pet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 403826200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have access to pet service",
+            "match": {
+              "location": "FindPetSteps.iHaveAccessToPetService()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1465001100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I create a pet",
+            "match": {
+              "location": "CreateSteps.iCreateAPet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71142400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the following result is available",
+            "match": {
+              "location": "CreateSteps.theFollowingResultIsAvailable()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@kumal"
+          }
+        ]
+      }
+    ],
+    "name": "This is create feature",
+    "description": "",
+    "id": "this-is-create-feature",
+    "keyword": "Feature",
+    "uri": "Features/Pets/PS002CreatePet.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]

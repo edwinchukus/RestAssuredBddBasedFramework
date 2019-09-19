@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.267474">
+    <testcase classname="This is create feature" name="Creating a pet" time="2.267474">
+        <system-out>
+            <![CDATA[Given I have access to pet service..........................................passed
+When I create a pet.........................................................passed
+Then the following result is available......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
